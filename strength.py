@@ -16,7 +16,7 @@ def check_strength(password):
          strength=strength+1
          break
    
-      if re.search(r'[!@#$%^&*]', password):
+   if re.search(r'[!@#$%^&*]', password):
          strength=strength+1
          
 
